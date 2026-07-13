@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,user-scalable=no">
+
+    <title>海鲜市场 收款</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<div class="card">
+
+    <img src="assets/logo.png"
+         class="logo"
+         onerror="this.style.display='none'">
+
+    <h1>🦞 海鲜市场</h1>
+
+    <p id="tip">
+        正在识别支付环境...
+    </p>
+
+    <div id="wechatBox">
+
+        <h2>微信支付</h2>
+
+        <img src="assets/wechat.png"
+             class="qrcode">
+
+    </div>
+
+    <div id="alipayBox">
+
+        <h2>支付宝支付</h2>
+
+        <img src="assets/alipay.png"
+             class="qrcode">
+
+    </div>
+
+    <div class="footer">
+
+        感谢您的支持 ❤️
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

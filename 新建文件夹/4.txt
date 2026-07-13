@@ -1,0 +1,21 @@
+# 海鲜市场
+
+Cloudflare Pages 部署
+
+无需 Node
+
+无需 npm
+
+无需构建
+
+直接上传即可
+
+Build command：
+
+（留空）
+
+Build output：
+
+/
+
+部署完成即可访问

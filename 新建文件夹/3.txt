@@ -1,0 +1,28 @@
+const ua = navigator.userAgent;
+
+const wx = document.getElementById("wechatBox");
+const ali = document.getElementById("alipayBox");
+
+const tip = document.getElementById("tip");
+
+if(/MicroMessenger/i.test(ua)){
+
+tip.innerHTML="💚 已识别微信";
+
+ali.style.display="none";
+
+}
+
+else if(/Alipay/i.test(ua)){
+
+tip.innerHTML="💙 已识别支付宝";
+
+wx.style.display="none";
+
+}
+
+else{
+
+tip.innerHTML="请选择支付方式";
+
+}
